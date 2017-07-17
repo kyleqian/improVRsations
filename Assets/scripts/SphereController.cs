@@ -12,7 +12,7 @@ public class SphereController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        scale = bs.currReading / 200f;
+        scale = bs.currReading / 100f - 1f;
         transform.localScale = new Vector3(scale, scale, scale);
     }
 }
